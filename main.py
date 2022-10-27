@@ -8,7 +8,7 @@ if __name__ == '__main__':
     root.geometry("500x570")
     root.resizable(0, 0)
     root.wm_attributes("-topmost", 1)
-    canvas = Canvas(root, width=500, height=500, bd=0, highlightthickness=0, highlightbackground="Red", bg="Black")
+    canvas = Canvas(root, width=550, height=500, bd=0, highlightthickness=0, highlightbackground="Red", bg="Black")
     canvas.pack(padx=10, pady=10)
     score = Label(height=50, width=80, text="Score: 00", font="Calibri 14 italic")
     score.pack(side="left")
